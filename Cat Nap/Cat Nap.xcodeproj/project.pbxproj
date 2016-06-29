@@ -14,6 +14,11 @@
 		CDB9D70C1D241B47004C5C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D70A1D241B47004C5C06 /* Main.storyboard */; };
 		CDB9D70E1D241B47004C5C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D70D1D241B47004C5C06 /* Assets.xcassets */; };
 		CDB9D7111D241B47004C5C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D70F1D241B47004C5C06 /* LaunchScreen.storyboard */; };
+		CDB9D71D1D241E3E004C5C06 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D7181D241E3E004C5C06 /* backgroundMusic.mp3 */; };
+		CDB9D71E1D241E3E004C5C06 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D7191D241E3E004C5C06 /* lose.mp3 */; };
+		CDB9D71F1D241E3E004C5C06 /* mrreow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D71A1D241E3E004C5C06 /* mrreow.mp3 */; };
+		CDB9D7201D241E3E004C5C06 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D71B1D241E3E004C5C06 /* pop.mp3 */; };
+		CDB9D7211D241E3E004C5C06 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D71C1D241E3E004C5C06 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		CDB9D70D1D241B47004C5C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB9D7101D241B47004C5C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB9D7121D241B47004C5C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB9D7181D241E3E004C5C06 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		CDB9D7191D241E3E004C5C06 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		CDB9D71A1D241E3E004C5C06 /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
+		CDB9D71B1D241E3E004C5C06 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		CDB9D71C1D241E3E004C5C06 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 		CDB9D7011D241B47004C5C06 /* Cat Nap */ = {
 			isa = PBXGroup;
 			children = (
+				CDB9D7181D241E3E004C5C06 /* backgroundMusic.mp3 */,
+				CDB9D7191D241E3E004C5C06 /* lose.mp3 */,
+				CDB9D71A1D241E3E004C5C06 /* mrreow.mp3 */,
+				CDB9D71B1D241E3E004C5C06 /* pop.mp3 */,
+				CDB9D71C1D241E3E004C5C06 /* win.mp3 */,
 				CDB9D7021D241B47004C5C06 /* AppDelegate.swift */,
 				CDB9D7041D241B47004C5C06 /* GameScene.sks */,
 				CDB9D7061D241B47004C5C06 /* GameScene.swift */,
@@ -129,10 +144,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB9D7211D241E3E004C5C06 /* win.mp3 in Resources */,
 				CDB9D7051D241B47004C5C06 /* GameScene.sks in Resources */,
 				CDB9D7111D241B47004C5C06 /* LaunchScreen.storyboard in Resources */,
 				CDB9D70E1D241B47004C5C06 /* Assets.xcassets in Resources */,
+				CDB9D71D1D241E3E004C5C06 /* backgroundMusic.mp3 in Resources */,
+				CDB9D7201D241E3E004C5C06 /* pop.mp3 in Resources */,
+				CDB9D71F1D241E3E004C5C06 /* mrreow.mp3 in Resources */,
 				CDB9D70C1D241B47004C5C06 /* Main.storyboard in Resources */,
+				CDB9D71E1D241E3E004C5C06 /* lose.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
