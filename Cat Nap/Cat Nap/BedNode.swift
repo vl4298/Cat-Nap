@@ -15,6 +15,8 @@ class BedNode: SKSpriteNode {
 extension BedNode: CustomNodeEvents {
   func didMoveToScene() {
     physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 40, height: 30))
-    physicsBody?.dynamic = false
+    physicsBody!.dynamic = false
+    physicsBody!.categoryBitMask = PhysicsCateGory.Bed
+    physicsBody!.collisionBitMask = PhysicsCateGory.None
   }
 }
