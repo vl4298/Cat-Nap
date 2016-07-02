@@ -24,6 +24,7 @@
 		CDB86EF31D27FF6A00A7A818 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB86EE71D27FF6A00A7A818 /* SKTTimingFunctions.swift */; };
 		CDB86EF41D27FF6A00A7A818 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB86EE81D27FF6A00A7A818 /* Vector3.swift */; };
 		CDB86EF61D28031C00A7A818 /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB86EF51D28031C00A7A818 /* BlockNode.swift */; };
+		CDB86EF81D2806B700A7A818 /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB86EF71D2806B700A7A818 /* MessageNode.swift */; };
 		CDB9D7031D241B47004C5C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9D7021D241B47004C5C06 /* AppDelegate.swift */; };
 		CDB9D7051D241B47004C5C06 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDB9D7041D241B47004C5C06 /* GameScene.sks */; };
 		CDB9D7071D241B47004C5C06 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9D7061D241B47004C5C06 /* GameScene.swift */; };
@@ -57,6 +58,7 @@
 		CDB86EE71D27FF6A00A7A818 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		CDB86EE81D27FF6A00A7A818 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		CDB86EF51D28031C00A7A818 /* BlockNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
+		CDB86EF71D2806B700A7A818 /* MessageNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
 		CDB9D6FF1D241B47004C5C06 /* Cat Nap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Nap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB9D7021D241B47004C5C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB9D7041D241B47004C5C06 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				CDB9D7121D241B47004C5C06 /* Info.plist */,
 				CDB86EDA1D27FB9900A7A818 /* CatNode.swift */,
 				CDB86EF51D28031C00A7A818 /* BlockNode.swift */,
+				CDB86EF71D2806B700A7A818 /* MessageNode.swift */,
 			);
 			path = "Cat Nap";
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB86EEA1D27FF6A00A7A818 /* CGPoint+Extensions.swift in Sources */,
+				CDB86EF81D2806B700A7A818 /* MessageNode.swift in Sources */,
 				CDB86EF21D27FF6A00A7A818 /* SKTEffects.swift in Sources */,
 				CDB86EED1D27FF6A00A7A818 /* SKAction+Extensions.swift in Sources */,
 				CDB9D7071D241B47004C5C06 /* GameScene.swift in Sources */,

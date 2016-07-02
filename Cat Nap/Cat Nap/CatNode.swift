@@ -17,6 +17,7 @@ extension CatNode: CustomNodeEvents {
     let catBodyTexture = SKTexture(imageNamed: "cat_body_outline")
     parent!.physicsBody = SKPhysicsBody(texture: catBodyTexture, size: catBodyTexture.size())
     parent!.physicsBody?.categoryBitMask = PhysicsCateGory.Cat
-    parent!.physicsBody?.collisionBitMask = PhysicsCateGory.Block
+    parent!.physicsBody?.collisionBitMask = PhysicsCateGory.Block | PhysicsCateGory.Edge
+    parent!.physicsBody?.contactTestBitMask = PhysicsCateGory.Bed | PhysicsCateGory.Edge
   }
 }
